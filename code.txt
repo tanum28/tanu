@@ -1,0 +1,115 @@
+git clone https://github.com/sudip7407/Repo1.git
+
+git init
+git config --global user.name "tanum28"
+git config --global user.email "maitytanushree4444@gmail.com
+git config --global --list
+git add .
+git status
+git commit -m "done"
+git remote add origin https://github.com/tanum28/cse112,git
+git push -u origin master
+
+
+home.html
+
+<html>
+<body bgcolor="sky blue">
+<h1> Home Page</h1>
+<h2> Tanushree Maity</h2>
+<a href="about.html">Go to About page</a>
+<a href="index.html">Go to Index page</a>
+</body>
+</html>
+
+index.html
+<html>
+<body bgcolor="white">
+<h1> Index Page</h1>
+<h2> Tanushree Maity</h2>
+<a href="home.html">Go to Home page</a>
+<a href="about.html">Go to About page</a>
+</body>
+</html>
+
+about.html
+<html>
+<body bgcolor="pink">
+<h1> About Page</h1>
+<h2> Tanushree Maity</h2>
+<a href="home.html">Go to Home page</a>
+<a href="index.html">Go to Index page</a>
+</body>
+</html>
+
+
+user data ( for both (auto scaling
+Deploy a project from GitHub to EC2 by creating a new security group and user data.)
+
+#!/bin/bash
+apt-get update
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -SL https://deb.nodesource.com/setup_16.x|sudo -E bash -
+apt-get install -y nodejs
+git clone https://github.com/Aditi-chy/cse132.git
+cd Repo1
+npm install
+node index.js
+
+bitwise command prompt
+
+#!/bin/bash
+while(true)
+do
+        echo "Inside loop"
+done
+
+HOSTING A WEBSITE ON EC2
+
+copy the public IP4 address
+paste in host of the bitvise profile
+give username: ubuntu
+initial method: publickey
+click client key manager
+        import
+         import the dwnlded key file
+          import
+          cross out
+client key: global1
+login
+accept nd save
+new terminal console
+pwd
+enter
+sudo apt-get update
+enter
+sudo apt-get upgrade
+Y
+sudo apt-get install nginx
+enter
+Y
+enter
+  pwd
+cd ..
+/var/www/html
+ls
+cd ..
+sudo chmod 777 html
+cd html
+ls
+
+
+DEPLOY A PROJECT FROM A LOCAL MACHINE TO GITHUB AND VICE VERSA
+
+git init
+git config – global user.name [used to configure the username]
+git config – global email.name [used to configure the email]
+git config – global –list [to display the username and email]
+7)Now use git add. [Add all files to your git repository]
+git status [display the state of the working directory and the staging area]
+8)git commit -m ‘done’[commit to the repository]
+9)git remote add origin [URL]
+11)finally git push -u origin master.4
